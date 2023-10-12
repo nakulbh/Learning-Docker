@@ -1,0 +1,3 @@
+Hypervisor ---> virtualisation (virtual isolation) 
+...............................................................
+to make a vm we need a virtualisation platform and to create a container we also need a contanalisarion platform
