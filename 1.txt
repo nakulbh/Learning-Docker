@@ -1,3 +1,18 @@
 Hypervisor ---> virtualisation (virtual isolation) 
 ...............................................................
 to make a vm we need a virtualisation platform and to create a container we also need a contanalisarion platform
+
+most organisation use vm/EC2 instance and on top of them they use Docker 
+
+containers are ligthweight in nature,
+they dont have a complete os,
+they share resourses from the host os,
+they have a base image of a os or you can say a package which is combiantion of your app + lib + system dependicies,
+they are easy to ship as their copy is low in size,
+if you want to copy a vm you make a snapshot of it which is 1-2 gb and in containers it is just in mb's
+
+vm have a complete os and hardware and everthing is seprate
+.................................................................................................................................
+
+
+command -> container -> Docker file -> submit this to docker engine -> this file is converted into a image -> now again with some commands we can convert this image into container
